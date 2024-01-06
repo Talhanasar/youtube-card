@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    margin-top: -13px;
+}
+body{
+    position: relative;
+}
+.box{
+    padding: 5px 4px;
+    display: flex;
+    gap: 8px;
+    width: 850px;
+    margin: 12px 7px;
+    background-color: rgb(34,34,34);
+    color: white;
+}
+.image{
+    position: relative;
+    border-radius: 5px;
+}
+.time{
+    background-color: rgba(34, 34, 34, 0.5);
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 2px;
+}
+img{
+    border-radius: 5px;
+    height: 80px;
+    
+}
+.title{
+    font-weight: 600;
+}
+.bottom{
+    margin: 12px 3px;
+    display: flex;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bottom span{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn{
+    color: black;
+    padding: 5px;
+    background-color: rgba(34, 34, 34, 0.5);
+    width: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0 5px;
+}
+.blur{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+.form{
+    border: 2px solid black;
+    height: 340px;
+    width: max-content;
+    z-index: 5;
+    padding: 12px 3px;
+    background-color: aqua;
+    position: relative;
+}
+.form h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.form p{
+    text-align: center;
+    color: red;
+    margin-top: 4px;
+    display: none;
+}
+.fill{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.done{
+    background-color: rgb(233, 233, 86);
+    position: absolute;
+    right: 5px;
+    bottom: 4px;
+    padding: 6px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.done:hover{
+    box-shadow: 1px 2px 4px;
+}
+.fa-solid::before{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 24px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.fa-solid:hover::before{
+    color: rgb(238, 118, 118);
+}

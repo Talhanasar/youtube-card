@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Online Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/KB7GzBv5p4Q/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDVLIUfmrskNAha1yNa-7ygsEeNEA"
+                alt="Image">
+                <div class="time">31:29</div>
+            </div>
+            <div class="text">
+                <div class="title">
+                    JavaScript Exercise 13 - Dynamic Website Builder | Sigma Web Development Course - Tutorial #73
+                </div>
+                <div class="bottom">
+                    <span>Channel name</span>
+                    .<span>1.3M views</span>
+                    .<span>3 months ago</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="btn">Add a new card</div>
+    <div class="blur">
+        <div class="form">
+            <h1>Form</h1>
+            <p id="wrong">Please fill up all the fields</p>
+            <i class="fa-solid fa-circle-xmark"></i>
+            <div class="fill">
+                <label for="title"> Enter the title : </label> 
+                <input type="text" name="title" id="title">
+            </div>
+            <div class="fill">
+                <label for="Cname">Enter Your channel name: </label>
+                <input type="text" name="Cname" id="Cname">
+            </div>
+            <div class="fill">
+                <label for="view">Enter the number of views: </label>
+                <input type="number" name="view" id="view">
+            </div>
+            <div class="fill">
+                <label for="time">Months ago?  </label>
+                <input type="number" name="time" id="time">
+            </div>
+            <div class="fill">
+                <label for="duration"> Enter the length of the video: </label>
+                <input type="text" name="duration" id="duration">
+            </div>
+            <div class="fill">
+                <label for="link">Enter the thumbnail: </label>
+                <input type="text" name="link" id="link">
+            </div>
+            <button class="done">Done</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
